@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.tasks-page-custom{
+    background-image: linear-gradient(to right top, #380051, #3d0169, #3c0883, #3214a0, #0021be);
+    height: auto !important;
+    min-height: 100%;
+}
+
+.mask-custom{
+    background: rgba(24,24,16,.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255,255,255,0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46,58,68,0.03);
+}
+
+.add-task-custom{
+    background-image: linear-gradient(to right top, #380051, #3d0169, #3c0883, #3214a0, #0021be);
+}
+
+.edit-page-custom{
+    background-image: linear-gradient(to right top, #380051, #3d0169, #3c0883, #3214a0, #0021be);
+}
+
+.login-page{
+    background-image: linear-gradient(to right top, #a46bd1, #a170d6, #9e76da, #9a7bde, #9780e2, #838fef, #6c9df9, #54aaff, #00c2ff, #00d7ff, #08eafd, #5ffbf1);
+    height: auto !important;
+    min-height: 100%;
+}
+
+.register-page{
+    background-image: linear-gradient(to right top, #4e0071, #520b8c, #4f1aaa, #4228ca, #1238eb);
+    height: auto !important;
+    min-height: 100%;
+}
+
+.home-page-custom{
+    background-image: linear-gradient(to right top, #380051, #3d0169, #3c0883, #3214a0, #0021be);
+}
+
+/* Nav Tabs */
+#active-tab{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px){
+    #scroll-section::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    #scroll-section-2::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+}
