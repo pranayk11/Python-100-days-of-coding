@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+/*------------Index Page--------------*/
+.box {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #C7E9B0
+}
+
+.box::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    padding: 1rem;
+    opacity: 0.5;
+}
+
+.heading{
+    position: relative;
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 15%;
+    margin-bottom: 2rem;
+    tex-shadow: 10px 10px 10px black;
+    opacity: 1;
+    z-index: 1;
+}
+
+.input-file{
+    position: relative;
+    background-color: white;
+    width: 40vw;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 5px 10px 20px black;
+}
+
+::webkit-file-upload-button{
+    background-color: rgba(255, 146, 5, 0.815);
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+    height: 40px;
+    width: 10vw;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.input-file{
+    position: relative;
+}
+
+.submit-button{
+    position: relative;
+    border: none;
+    background-color: rgb(84,59,143);
+    color: white;
+    padding: 1% 2%;
+    border-radius: 10px;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+.submit-button:hover{
+    background-color: rgb(127,99,200);
+    cursor: pointer;
+}
+
+/* ------------------Result-----------------*/
+.box-2{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #C7E9B0;
+}
+
+.box-2 h1{
+    text-align: left;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.box-2 .image-result{
+    border: 2px solid black;
+    padding: 1rem;
+    float: left;
+    margin-right: 10rem;
+    box-shadow: 5px 10px 20px black;
+}
+
+.image-result img{
+    max-width: 800px;
+    max-height: 600px
+}
+
+.color-result{
+    float: left;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.color-result p{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    color: black;
+    font-size: larger;
+    box-shadow: 1px 3px 5px black;
+}
+
+
+

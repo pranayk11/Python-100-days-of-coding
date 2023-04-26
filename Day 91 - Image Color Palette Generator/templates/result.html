@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<title>Image Color Palette Generator</title>
+</head>
+<body>
+	<div class="box-2">
+		<h1>Result</h1>
+		<div class="image-result">
+			<img src="{{ img }}" alt="image"><br>
+			<p>{{ img }}</p>
+		</div>
+		<div class="color-result">
+			{% for color in top_colors %}
+				<p id="color" style="background-color: rgb{{ color }}">
+					rgb{{ color }}
+				</p>
+			{% endfor %}
+		</div>
+	</div>
+</body>
